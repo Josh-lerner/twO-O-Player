@@ -1,12 +1,16 @@
 class Player
   attr_accessor :name, :life
 
-  def initliaze(name)
+  def initialize(name)
     @name = name
     @life = 3
   end
 
-  def incorect
-    @life -=1
+  def incorrect
+    @life -= 1
+  end
+
+  def gameover
+    @life == 0
   end
 end

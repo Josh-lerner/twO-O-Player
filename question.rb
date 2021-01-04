@@ -1,5 +1,5 @@
 class Question
-  attr_accessor :num1. :num2
+  attr_accessor :num1, :num2
 
 
   def self.num1 

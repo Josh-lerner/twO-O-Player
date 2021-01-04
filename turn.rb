@@ -9,6 +9,6 @@ def turn (player)
     puts "That's the right answer! You will not lose a life"
   else 
     puts "That's the wrong answer! You will lose a life"
-    player.incorect
+    player.incorrect
   end
-end 
+end  
